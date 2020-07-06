@@ -1,0 +1,159 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>server - easy-booking</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    
+</head>
+<body style="
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(100deg, rgba(0,0,0,1) 0%, rgba(125,125,125,1) 50%, rgba(0,0,0,1) 100%);
+">
+    <div style="
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    ">
+        <h1 style="
+            font-size: 42px;
+            color: rgb(255, 255, 255);
+        ">
+            Welcome to the server of easy-booking.com
+        </h1>
+
+        <p style="
+            font-size: 32px;
+            color: white;
+        "
+        >
+            These are the available routes:
+        </p>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid white;
+            padding: 0px 15px;
+        ">
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 250px;
+                text-align: left;
+            "
+            >
+                /registerEvent
+            </p>
+            
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 400px;
+                text-align: left;
+            "
+            >
+                Use it to register a new event
+            </p>
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 150px;
+                text-align: left;
+            "
+            >
+                POST
+            </p>
+            
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid white;
+            padding: 0px 15px;
+            margin-top: 15px;
+        ">
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 250px;
+                text-align: left;
+            "
+            >
+                /registeredEvents
+            </p>
+            
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 400px;
+                text-align: left;
+            "
+            >
+                List all registered events
+            </p>
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 150px;
+                text-align: left;
+            "
+            >
+                GET
+            </p>
+            
+        </div>
+
+        <div style="
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            border: 1px solid white;
+            padding: 0px 15px;
+            margin-top: 15px;
+        ">
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 250px;
+                text-align: left;
+            "
+            >
+                /deleteAllEvents
+            </p>
+            
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 400px;
+                text-align: left;
+            "
+            >
+                Delete all registered events
+            </p>
+            <p style="
+                font-size: 22px;
+                color: white;
+                width: 150px;
+                text-align: left;
+            "
+            >
+                GET
+            </p>
+            
+        </div>
+
+    </div>
+</body>
+</html>
